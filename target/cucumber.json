@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Frame Handle",
+        "description": "",
+        "id": "oracle;verify-frame-handle",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3605034000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open URL",
+            "match": {
+              "location": "Stepdefinition.open_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3051791500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click AllClasses Frame",
+            "match": {
+              "location": "Stepdefinition.click_AllClasses_Frame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3102313700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Class AbstractButton",
+            "match": {
+              "location": "Stepdefinition.click_Class_AbstractButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3043837700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Class AbstractButton Open Successfully",
+            "match": {
+              "location": "Stepdefinition.verify_Class_AbstractButton_Open_Successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158600100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close Window",
+            "match": {
+              "location": "Stepdefinition.close_Window()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Oracle",
+    "description": "",
+    "id": "oracle",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/frame.feature"
+  }
+]
